@@ -1,0 +1,23 @@
+# Robots.txt file for http://www.mydomain.com
+#
+
+User-agent: *
+Disallow: /*/search/
+Disallow: /*/Search/
+Disallow: */layout/
+Disallow: */base-en/
+Disallow: *action=siteSearch
+Disallow: *action=productSupportSearch
+Disallow: /ie/ie40/
+Disallow: /info/customerror.htm*
+Disallow: /isapi/
+Disallow: /windows/compatibility/windows-vista/
+Disallow: /windows/compatibility/windows-7/*/search.aspx?
+Disallow: /windows/compatibility/windows-7/*/Search.aspx?
+Disallow: /windows/compatibility/windows-7/*/browse.aspx?
+Disallow: /windows/compatibility/windows-7/*/Browse.aspx?
+Disallow: /windows/compatibility/windows-7/*/details.aspx?
+Disallow: /windows/compatibility/windows-7/*/Details.aspx?
+Disallow: /windows/404.aspx?*
+
+
